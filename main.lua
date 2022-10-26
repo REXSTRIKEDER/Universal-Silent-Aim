@@ -17,7 +17,7 @@ local CallCounter = {
 
 local UserInputService = game:GetService("UserInputService")
 
-local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Rain-Design/PPHUD/main/Library.lua'))()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/REXSTRIKEDER/Universal-Silent-Aim/main/Library.lua'))()
 local Flags = Library.Flags do -- draw ui
     local function REG_A(X) Flags["Silent_Aim_HitPart"]=X end
     local function REG_B(X) Flags["Silent_Aim_Method"]=X end
